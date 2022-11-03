@@ -4,9 +4,15 @@
   "version": "1.0.0",
   "unity": "2018.4",
   "description": "Allows you to serialize and retain type information",
-  "type": "library", 
-  "relatedPackages": {
-    "com.unity.nuget.newtonsoft-json.tests": "3.0.2"
+  "type": "library",
+  "keywords": [
+    "Serializer",
+    "Polymorphism",
+    "UnityReferences"
+  ],
+  "category": "Serialize",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.0.2"
   },
   "repository": {
     "url": "https://github.com/muxigame/Unity-PolymorphismSerializer.git",
